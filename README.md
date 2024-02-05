@@ -6,52 +6,42 @@ nextjs-template
 
 ## Getting Started
 
-Follow these instructions to get the project up and running on your local machine for development and testing purposes.
+next.js (react) UI작업용 템플릿
 
 ## Prerequisites
-
-Ensure you have the following installed on your local setup:
-
 - **Node.js (v18.17.1)**
 - **npm**
 
-To install all the dependencies, run:
 
-> npm install
+## Local
 
-## Running Locally
-
-To run the project locally, you can use the following commands:
-
-To run the local environment, use:
+local
 
 > npm run local
 
-To run the development environment, use:
+dev
 
 > npm run dev
 
-To run the staging environment on development, use:
+dev:stg
 
 > npm run dev:stg
 
-To run the production environment on development, use:
+dev:prd
 
 > npm run dev:prd
 
 ## Building for Deployment
 
-To build the project for deployment, you can use the following commands:
-
-To build for development, use:
+dev
 
 > npm run build:dev
 
-To build for staging, use:
+stg
 
 > npm run build:stg
 
-To build for production, use:
+prd
 
 > npm run build:prd
 
@@ -59,7 +49,7 @@ To build for production, use:
 
 > npm run start
 
-## Docker Build and Run
+<!-- ## Docker Build and Run
 
 You can also build and run the project using Docker. Follow the instructions below:
 
@@ -95,4 +85,4 @@ To run the Docker container, use:
 
 Example:
 
-> docker run -p 3000:3000 nextjs-template:0.1
+> docker run -p 3000:3000 nextjs-template:0.1 -->
