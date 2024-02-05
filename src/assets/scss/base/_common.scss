@@ -1,0 +1,29 @@
+/* reset */
+* {margin:0; padding:0;}
+body{overflow:hidden}
+ol, ul, li{list-style: none;}
+table{width:100%; border-collapse:collapse; border-spacing:0; table-layout:fixed;}
+form, fieldset, iframe{display:block; border:0;}
+img,button {border: none;vertical-align: middle;}
+i, em, address {font-style: normal}
+em {font-weight:700;}
+label,button {cursor:pointer;}
+blockquote,q {quotes: none;}
+input, textarea, select, button {padding:0; margin:0; border:none; vertical-align: middle;}
+input:focus {outline:none;}
+a {text-decoration: none;}
+a:link, a:visited {text-decoration:none;}
+a:focus {outline: none;}
+
+/* common */
+.blind{position:absolute; left:-9999px; top:-9999px; overflow:hidden; width:0; height:0; display:inline;}
+
+
+/* font */
+:root, html, input, textarea, select, button{
+  font-family:'Pretendard', Arial, dotum, sans-serif;
+  font-size:15px;
+  letter-spacing:0;
+  font-weight:400;
+  color:$color-black;
+}

@@ -1,0 +1,55 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["@emotion", "prettier", "react", "react-hooks"],
+  "rules": {
+    "react/prop-types": "off",
+    "react/function-component-definition": "off",
+    "react/no-invalid-html-attribute": "off",
+    "react/no-arrow-function-lifecycle": "off",
+    "react/no-unused-class-component-methods": "off",
+    "react/display-name": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-no-useless-fragment": "error",
+    "react/require-default-props": "off",
+    "react/no-array-index-key": "warn",
+    "no-undef": "warn",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "no-param-reassign": "off",
+    "no-fallthrough": ["error", { "commentPattern": "fall through" }],
+    "no-plusplus": "off",
+    "no-shadow": "warn",
+    "default-param-last": "off",
+    "react/react-in-jsx-scope": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "globals": {
+    "JSX": true,
+    "NodeJS": true
+  }
+}
