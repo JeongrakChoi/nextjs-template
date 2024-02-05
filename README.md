@@ -1,10 +1,4 @@
-## Project Title
-
-nextjs-template
-
----
-
-## Getting Started
+# nextjs-template
 
 next.js (react) UI작업용 템플릿
 
